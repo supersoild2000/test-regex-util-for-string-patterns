@@ -1,0 +1,19 @@
+.base-form {
+  display: grid;
+  max-width: 70ch;
+  margin-inline: auto;
+  gap: 24px;
+}
+
+.base-form__label {
+  margin-inline-end: 8px;
+}
+
+.base-form__controls-fieldset {
+  border-radius: 8px;
+  border-color: gray;
+  border-style: dashed;
+  gap: 16px;
+  padding: 16px;
+  display: grid;
+}
